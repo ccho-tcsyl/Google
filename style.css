@@ -1,18 +1,47 @@
+/* top,midddle, and bottom div */
+.topDiv{
 
+    top: 0;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width:100vw;
+    height: 6vh
+    }
+    
+    .middleDiv{
+    
+        text-align: center;
+        
+        margin-top: 250px;
+    }
+    
+    .bottomDiv{
+    
+    bottom: 0;
+    background-color: rgb(243, 243, 243);
+    position: fixed;
+    width:100vw;
+    height:6vh
+    }
 
+    /* left and right */
+.left{
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif
+    }
+    
+    
+    
+    .right{
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif
+    }
 
-
-
-
-
-.middleDiv{
-
-text-align: center;
-
-margin-top: 30vh;
-
-
-}
+   
 
 
 
@@ -20,80 +49,47 @@ margin-top: 30vh;
 
 width: 500px;
 box-shadow: 2px 4px #bebebe;
-height: 4vh
+width: 550px;
+height: 37px
 }
 
+/* buttons */
 .searchButtonRight{
 
 margin-top: 20px;
 margin-right: 25px;
-height:5vh
+height:37px;
 }
 
 .searchButtonLeft{
 
 margin-top: 20px;
 margin-left: 25px;
-height: 5vh
-
+height: 37px
 }
 
 .signIn{
 
 background-color: rgb(42, 91, 252);
 color: ghostwhite;
-height: 5vh;
-width: 6vw;
-text-align: center;
-margin-left:1400px ;
-margin-top:5px
+height: 37px;
+width: 89px;
 }
 
-
-.youTube{
-color: rgb(23, 119, 245);
-font-family: Arial, Helvetica, sans-serif
-
-}
-
-
+/* Waffle Icon */
 .waffleIcon{
 
-height: 3vh;
-width: 1.5vw;
-padding-left: 1350px;
-
-
-}
-
-.topDiv{
-
-top: 0;
-position: fixed;
-background-color: rgb(255, 255, 255);
-width:105vw;
-height: 6vh
+height: 25px;
+width: 25px;
+margin-left: 8px;
+margin-right: 8px;
 }
 
 
-.bottomDiv{
 
-bottom: 0;
-background-color: rgb(243, 243, 243);
-position: fixed;
-width:107vw;
-height:6vh
-}
-
-.left{
-
-float: left
-
-}
-
-
-.right{
-
-    float: right
-
-}
+ /* Youtube Music */
+ .youTube{
+    color: rgb(23, 119, 245);
+    font-family: Arial, Helvetica, sans-serif
+    
+    }
